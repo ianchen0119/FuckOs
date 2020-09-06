@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<button class="fuckOS">start!</button>
+	<script>
+		let start = document.querySelector('.fuckOS');
+		start.addEventListener('click',()=>{
+			window.fuckOS();
+		})
+		function fuckOS(){
+			window.setInterval(()=>{
+				let i = 1 ;
+				window.open('https://www.e-classical.com.tw/index.html');
+				i++;
+				console.log(i)
+			},1000)
+			// while(true){
+			// 	window.open('https://www.e-classical.com.tw/index.html')
+			// }
+		}
+	</script>
+</body>
+</html>
